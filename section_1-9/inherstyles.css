@@ -1,0 +1,15 @@
+body{
+    color: indigo;
+}
+h1 {
+    color: darkslategrey;
+}
+/* section{
+    color: firebrick;
+} */
+/* form{
+    color: goldenrod;
+} */
+button, input{
+    color: inherit;
+}

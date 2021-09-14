@@ -1,0 +1,53 @@
+#percentages {
+    background-color: dimgray;
+    width: 600px;
+    height: 800px;
+}
+#percentages div{
+    background-color: goldenrod;
+    width: 50%;
+    height: 50%;
+}
+#percentages h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+#ems h2{
+    font-size: 5em;
+    margin-left: 1em;
+}
+#ems {
+    font-size: 15px;
+}
+#ems p{
+    font-size: 1em;
+}
+#ems h3{
+    font-size: 1.5em;
+}
+button{
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: grey;
+    color: khaki;
+}
+#ems ul{
+    font-size: 1.5em;
+}
+#rems h2 {
+    font-size: 3rem;
+}
+#rems h3 {
+    font-size: 2rem;
+}
+#rems ul{
+    font-size: 0.8rem;
+}
+#rems button{
+    font-size: 1.5rem;
+}
+html {
+    font-size: 30px;
+}
