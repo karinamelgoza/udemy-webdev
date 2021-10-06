@@ -15,3 +15,22 @@ function rollDie() {
 }
 
 // callTwice(rollDie)
+
+function makeMysteryFunc() {
+    const rand = Math.random()
+    if (rand > 0.5) {
+        return function () {
+            console.log('I am a good function')
+        }
+    } else {
+        return function () {
+            alert('BAD FUNCTION')
+        }
+    }
+}
+
+function makeBetweenFunc(min, max) {
+    return function (num) {
+        return num >= min && num <= max
+    }
+}
