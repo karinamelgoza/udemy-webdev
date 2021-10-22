@@ -42,3 +42,16 @@ const movies = [
 const newMovies = movies.map(movie => (
     `${movie.title} - ${movie.score/10}`
 ))
+
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: function(){
+        return `${this.firstName} ${this.lastName}`
+    },
+    shoutName: function(){
+        setTimeout(()=> {
+            console.log(this.fullName())
+        }, 3000)
+    }
+}
